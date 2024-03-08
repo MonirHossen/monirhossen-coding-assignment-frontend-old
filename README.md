@@ -1,24 +1,22 @@
-# monirhossen-coding-assignment-frontend
+# About Project
+This is a public repository based on your task. In this project I use Vuejs3.
 
 ## Project setup
 ```
-npm install
+git clone https://github.com/MonirHossen/monirhossen-coding-assignment-frontend.git
 ```
 
-### Compiles and hot-reloads for development
+```
+cd monirhossen-coding-assignment-frontend
+```
+
+```
+npm install
+```
+To run the Project use this command
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I hope to use those commands you will see my work. 
+Thank You.
