@@ -8,7 +8,6 @@
         <input type="password" name="password" v-model="form.password">
         <br>
         <br>
-        <pre>{{ errors }}</pre>
         <input type="submit">
     </form>
   </div>
@@ -35,9 +34,11 @@ export default {
             User.login(this.form).then((res) => {
                 this.setUser = res.data.user
                 localStorage.setItem('token', res.data.token)
+                alert('Login Successfully');
                 this.$router.push('/homepage')
                 this.loading = false
                 }).catch((error) => { 
+                    alert('Something Went Wrong');
                     this.$router.push('/login')
                     if (error) {
                         console.log(error)
